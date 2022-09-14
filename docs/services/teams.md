@@ -24,6 +24,7 @@ data:
     recipientUrls:
       channelName: $channel-teams-url
 ```
+**Note:** If you change the "channelName" field in the yml file above, keep in mind that you need to change the subscription name in the annotation created in the part "6. Create subscription for your Teams integration" with name: notifications.argoproj.io/subscribe.on-sync-succeeded.teams: channelName.
 
 ```yaml
 apiVersion: v1
